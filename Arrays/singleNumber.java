@@ -9,7 +9,7 @@ public class singleNumber {
         int result = 0;
         //xor of same number results 0
         // &
-        //xor is associative
+        //xor is associative a
         for (int num : nums) {
             result ^= num;
         }
